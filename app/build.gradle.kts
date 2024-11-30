@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "lk.nibm.ku.hdse233.o24.converterapp"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "lk.nibm.ku.hdse233.o24.converterapp"
         minSdk = 29
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 

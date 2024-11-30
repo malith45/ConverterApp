@@ -24,9 +24,9 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Spinner
-        android:id="@+id/spinner"
+        android:id="@+id/cmbChoice"
         android:layout_width="333dp"
-        android:layout_height="37dp"
+        android:layout_height="50dp"
         android:layout_marginStart="40dp"
         android:layout_marginTop="16dp"
         android:dropDownWidth="wrap_content"
@@ -47,4 +47,50 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtTitle" />
+
+    <EditText
+        android:id="@+id/txtInput"
+        android:layout_width="333dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Enter the amount :"
+        android:inputType="text"
+        android:textColor="#6B097C"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cmbChoice" />
+
+    <Button
+        android:id="@+id/btnConvert"
+        android:layout_width="189dp"
+        android:layout_height="53dp"
+        android:layout_marginStart="111dp"
+        android:layout_marginTop="16dp"
+        android:text="Convert"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtInput" />
+
+    <TextView
+        android:id="@+id/txtResultTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="86dp"
+        android:text="Result :"
+        android:textColor="#6B097C"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtInput" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="333dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtResultTitle" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
