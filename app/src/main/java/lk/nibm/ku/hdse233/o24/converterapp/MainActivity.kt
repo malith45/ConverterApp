@@ -69,7 +69,7 @@ class MainActivity : AppCompatActivity() {
     private fun convertFahrenheitToCelsius(value: Double): Double {
         return (value - 32) * 5 / 9
     }
-    // Convert Grams to Kilograms
+    // Convert Grams to Kilogram
     private fun convertGramsToKg(value: Double): Double {
         return value / 1000
     }
